@@ -21,7 +21,9 @@ Run the following command in cmd to install the required packages:
 pip install -r requirements.txt
 
 ### **2. Ensure YOLO Model File Exists**
-The `yolov8n.pt` file should be placed in the same directory as `driver_risk.py`(i've done it, but please double-check).
+The `yolov8n.pt` file should be downloaded from the official site:
+ `https://docs.ultralytics.com/models/yolov8/#performance-metrics`
+and be placed in the same directory as `driver_risk.py`.
 
 ### **3. Run the API Server**
 To start the API, navigate to the directory where the files are stored, and run:
